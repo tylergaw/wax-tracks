@@ -3,33 +3,26 @@
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6.0"
+  },
   "scripts": {
-    "start": "sanity dev",
-    "preview": "sanity start",
-    "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "get": "node --env-file .env ./src/getCollection.js",
+    "get:skipPrompt": "node --env-file .env ./src/getCollection.js --skipPagePrompt",
+    "enrich": "node --env-file .env ./src/enrichCollection.js",
+    "update": "npm run get:skipPrompt && npm run enrich",
+    "test": "TEST=true node --env-file .env --test",
+    "test:watch": "TEST=true node --env-file .env --test --watch .",
+    "prettier": "prettier ./src --write"
   },
-  "keywords": [
-    "sanity"
-  ],
-  "dependencies": {
-    "@sanity/icons": "2.4.1",
-    "@sanity/ui": "1.7.3",
-    "@sanity/vision": "3.14.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-is": "18.2.0",
-    "sanity": "3.14.3",
-    "styled-components": "6.0.5"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@sanity/eslint-config-studio": "2.0.4",
-    "@types/react": "18.2.15",
-    "@types/styled-components": "5.1.26",
     "eslint": "8.45.0",
-    "prettier": "3.0.0",
-    "typescript": "5.1.6"
+    "msw": "2.0.10",
+    "node-fetch": "3.3.2",
+    "openai": "3.2.1",
+    "prettier": "3.1.0"
   }
 }

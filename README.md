@@ -1,3 +1,3 @@
 # Wax Tracks
 
-Sanity Content Studio for [wax.tylergaw.com](https://wax.tylergaw.com/)
+Some type of content generator/storage/munger for [wax.tylergaw.com](https://wax.tylergaw.com/)

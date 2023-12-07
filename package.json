@@ -13,6 +13,7 @@
     "get:skipPrompt": "node --env-file .env ./src/getCollection.js --skipPagePrompt",
     "enrich": "node --env-file .env ./src/enrichCollection.js",
     "update": "npm run get:skipPrompt && npm run enrich",
+    "rebuild": "curl -X POST https://api.netlify.com/build_hooks/656e435889073d2196bd186f",
     "test": "TEST=true node --env-file .env --test",
     "test:watch": "TEST=true node --env-file .env --test --watch .",
     "prettier": "prettier ./src --write"

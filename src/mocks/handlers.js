@@ -1,8 +1,9 @@
 import { rest } from "msw";
 
+// FIXME: msw isn't included after sitching to native node test runner
 export const handlers = [
-  rest.post("https://api.openai.com/v1/completions", (_, res, ctx) => {
-    return res(ctx.status(200), ctx.json(openAICompletions));
+  rest.get("https://api.openai.com/v1/chat/completions", (_, res, ctx) => {
+    return res(ctx.status(200), ctx.json(chatCompletionsFixture));
   }),
 ];
 
@@ -149,272 +150,73 @@ export const openAIEnrichmentsFixture = [
   },
 ];
 
-// Open AI completions response fixture
-const openAICompletions = {
-  id: "cmpl-7XX1Y2jQJmYGn8Tshf1CduJhzlhEN",
-  object: "text_completion",
-  created: 1688226124,
-  model: "text-davinci-003",
+const chatCompletionsFixture = {
+  id: "chatcmpl-8T1gvc0wtaY4glnAc8flg81uj0oNy",
+  object: "chat.completion",
+  created: 1701928705,
+  model: "gpt-4-1106-preview",
   choices: [
     {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "100245",\n' +
-        '  "description": "James Booker credit",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": ""\n' +
-        "}",
       index: 0,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "370135",\n' +
-        '  "description": "Los Angeles Pressing",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": ""\n' +
-        "}",
-      index: 1,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "513594",\n' +
-        '  "description": "180g",\n' +
-        '  "human_readable_color": "Translucent",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "Translucent"\n' +
-        "}",
-      index: 2,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "677375",\n' +
-        '  "description": "Gatefold",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 3,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "770027",\n' +
-        '  "description": "Specialty Pressing",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 4,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "965631",\n' +
-        '  "description": "Red Translucent",\n' +
-        '  "human_readable_color": "Red Translucent",\n' +
-        '  "css_readable_colors": ["red"],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 5,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "993128",\n' +
-        '  "description": "180 g",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "clear"\n' +
-        "}",
-      index: 6,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1018597",\n' +
-        '  "description": "Hollywood Pressing",\n' +
-        '  "human_readable_color": "Translucent",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "Translucent"\n' +
-        "}",
-      index: 7,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1192308",\n' +
-        '  "description": "Yellow",\n' +
-        '  "human_readable_color": "Yellow",\n' +
-        '  "css_readable_colors": ["yellow"],\n' +
-        '  "pattern_texture": ""\n' +
-        "}",
-      index: 8,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1563150",\n' +
-        '  "description": "Punchout Centers",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 9,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1597466",\n' +
-        '  "description": "Pink",\n' +
-        '  "human_readable_color": "Pink",\n' +
-        '  "css_readable_colors": ["pink"],\n' +
-        '  "pattern_texture": ""\n' +
-        "}",
-      index: 10,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1597615",\n' +
-        '  "description": "Red",\n' +
-        '  "human_readable_color": "Red",\n' +
-        '  "css_readable_colors": ["red"],\n' +
-        '  "pattern_texture": ""\n' +
-        "}",
-      index: 11,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1684889",\n' +
-        '  "description": "Grey Marbled",\n' +
-        '  "human_readable_color": "Grey",\n' +
-        '  "css_readable_colors": ["grey"],\n' +
-        '  "pattern_texture": "Marbled"\n' +
-        "}",
-      index: 12,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1684896",\n' +
-        '  "description": "Grey Marbled",\n' +
-        '  "human_readable_color": "Grey",\n' +
-        '  "css_readable_colors": ["grey"],\n' +
-        '  "pattern_texture": "Marbled"\n' +
-        "}",
-      index: 13,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "1790723",\n' +
-        '  "description": "Blue Translucent",\n' +
-        '  "human_readable_color": "Blue Translucent",\n' +
-        '  "css_readable_colors": ["blue"],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 15,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "2113642",\n' +
-        '  "description": "Clear",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "translucent"\n' +
-        "}",
-      index: 18,
-      logprobs: null,
-      finish_reason: "stop",
-    },
-    {
-      text:
-        "\n" +
-        "\n" +
-        "{\n" +
-        '  "id": "2151825",\n' +
-        '  "description": "Clear",\n' +
-        '  "human_readable_color": "",\n' +
-        '  "css_readable_colors": [],\n' +
-        '  "pattern_texture": "clear"\n' +
-        "}",
-      index: 19,
-      logprobs: null,
+      message: [
+        {
+          content: {
+            records: [
+              {
+                id: 112,
+                description: "Purple and orange sunburst",
+                humanReadableColor: "Purple and orange sunburst",
+                cssReadableColors: ["purple", "orange"],
+                pattern: "sunburst",
+                texture: null,
+              },
+              {
+                id: 123,
+                description: "Purple Marbled Translucent, 180 Gram",
+                humanReadableColor: "Purple marbled translucent",
+                cssReadableColors: ["purple"],
+                pattern: "marbled",
+                texture: "translucent",
+              },
+              {
+                id: 134,
+                description: "Hot pink",
+                humanReadableColor: "Hot pink",
+                cssReadableColors: ["hotpink"],
+                pattern: null,
+                texture: null,
+              },
+              {
+                id: 156,
+                description: "Marbled green vinyl",
+                humanReadableColor: "Marbled green",
+                cssReadableColors: ["green"],
+                pattern: "marbled",
+                texture: null,
+              },
+              {
+                id: 456,
+                description: "Black/Silver Swirl",
+                humanReadableColor: "Black with silver swirl",
+                cssReadableColors: ["black", "silver"],
+                pattern: "swirl",
+                texture: null,
+              },
+              {
+                id: 789,
+                description: "Silver/red swirl",
+                humanReadableColor: "Silver with red swirl",
+                cssReadableColors: ["silver", "red"],
+                pattern: "swirl",
+                texture: null,
+              },
+            ],
+          },
+        },
+      ],
       finish_reason: "stop",
     },
   ],
-  usage: {
-    prompt_tokens: 4472,
-    completion_tokens: 1173,
-    total_tokens: 5645,
-  },
+  usage: { prompt_tokens: 332, completion_tokens: 357, total_tokens: 689 },
+  system_fingerprint: "fp_a24b4d720c",
 };

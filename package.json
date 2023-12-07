@@ -23,7 +23,7 @@
     "eslint": "8.45.0",
     "msw": "2.0.10",
     "node-fetch": "3.3.2",
-    "openai": "3.2.1",
+    "openai": "4.20.1",
     "prettier": "3.1.0"
   }
 }

@@ -6,7 +6,7 @@ export async function persistData(data, filePath) {
       flag: "w",
     });
   } catch (err) {
-    throw err;
+    throw new Error(`In persistData: ${err}`);
   }
 }
 

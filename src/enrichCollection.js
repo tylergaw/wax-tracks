@@ -119,7 +119,6 @@ export const getOpenAIEnrichments = async (collection, recordLimit = 20) => {
   const enrichments = responses
     .map((res) => JSON.parse(res.value.choices[0].message.content).records)
     .flat();
-  console.log(enrichments);
   return enrichments;
 };
 

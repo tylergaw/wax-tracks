@@ -91,7 +91,7 @@ export const getUserMessages = (descriptions) => {
   });
 };
 
-export const getOpenAIEnrichments = async (collection, recordLimit = 20) => {
+export const getOpenAIEnrichments = async (collection, recordLimit = 15) => {
   const messages = getUserMessages(getDescriptions(collection));
   const requestsNeeded = Math.round(messages.length / recordLimit);
 
@@ -135,11 +135,17 @@ const getCollection = async () => {
 if (!process.env.TEST) {
   try {
     const collection = await getCollection();
+    const startTime = Date.now();
     const enrichments = await getOpenAIEnrichments(collection);
+    const duration = Date.now() - startTime;
     try {
       if (enrichments) {
         await persistData(enrichments, dataFilePath);
+
         console.log("Open AI enrichments written to", dataFilePath);
+        console.log(
+          `\nenrichCollection completed in ${duration / 1000} seconds.\n`,
+        );
       } else {
         console.log("No error, but there was no data to write to file");
       }

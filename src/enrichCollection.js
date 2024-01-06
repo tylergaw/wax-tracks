@@ -91,7 +91,7 @@ export const getUserMessages = (descriptions) => {
   });
 };
 
-export const getOpenAIEnrichments = async (collection, recordLimit = 20) => {
+export const getOpenAIEnrichments = async (collection, recordLimit = 15) => {
   const messages = getUserMessages(getDescriptions(collection));
   const requestsNeeded = Math.round(messages.length / recordLimit);
 

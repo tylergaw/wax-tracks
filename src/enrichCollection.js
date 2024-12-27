@@ -116,6 +116,20 @@ export const getOpenAIEnrichments = async (collection, recordLimit = 15) => {
   });
 
   const responses = await Promise.allSettled(requests);
+  const errorResponses = responses
+    .filter((r) => r.status === "rejected")
+    .map((err) => ({
+      ...err.reason.error,
+    }));
+
+  if (errorResponses.length) {
+    console.error(errorResponses);
+    console.error(
+      `There were ${errorResponses.length} errors while interacting with the openai API.`,
+    );
+    throw new Error("enrichCollection failed");
+  }
+
   const enrichments = responses
     .map((res) => JSON.parse(res.value.choices[0].message.content).records)
     .flat();

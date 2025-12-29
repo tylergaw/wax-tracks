@@ -1,0 +1,112 @@
+[
+  {
+    "id": "13329",
+    "description": "Jacksonville Pressing",
+    "humanReadableColor": null
+  },
+  {
+    "id": "27277",
+    "description": "SRC Pressing, Gatefold",
+    "humanReadableColor": null
+  },
+  {
+    "id": "76872",
+    "description": "Winchester Pressing",
+    "humanReadableColor": null
+  },
+  {
+    "id": "100245",
+    "description": "James Booker Credit",
+    "humanReadableColor": null
+  },
+  {
+    "id": "355382",
+    "description": "Specialty Pressing",
+    "humanReadableColor": null
+  },
+  {
+    "id": "577250",
+    "description": "Red Translucent",
+    "humanReadableColor": "red translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "texture": "translucent"
+  },
+  {
+    "id": "965631",
+    "description": "Red Translucent",
+    "humanReadableColor": "red translucent",
+    "cssReadableColors": [
+      "red"
+    ],
+    "texture": "translucent"
+  },
+  {
+    "id": "1192308",
+    "description": "Yellow",
+    "humanReadableColor": "yellow",
+    "cssReadableColors": [
+      "yellow"
+    ]
+  },
+  {
+    "id": "1597466",
+    "description": "Pink",
+    "humanReadableColor": "pink",
+    "cssReadableColors": [
+      "pink"
+    ]
+  },
+  {
+    "id": "1597615",
+    "description": "Red",
+    "humanReadableColor": "red",
+    "cssReadableColors": [
+      "red"
+    ]
+  },
+  {
+    "id": "1684889",
+    "description": "Grey Marbled",
+    "humanReadableColor": "grey marbled",
+    "cssReadableColors": [
+      "gray"
+    ],
+    "pattern": "marbled"
+  },
+  {
+    "id": "1684896",
+    "description": "Grey Marbled",
+    "humanReadableColor": "grey marbled",
+    "cssReadableColors": [
+      "gray"
+    ],
+    "pattern": "marbled"
+  },
+  {
+    "id": "1790723",
+    "description": "Blue Translucent",
+    "humanReadableColor": "blue translucent",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "texture": "translucent"
+  },
+  {
+    "id": "1949892",
+    "description": "White",
+    "humanReadableColor": "white",
+    "cssReadableColors": [
+      "white"
+    ]
+  },
+  {
+    "id": "2101658",
+    "description": "Green",
+    "humanReadableColor": "green",
+    "cssReadableColors": [
+      "green"
+    ]
+  }
+]

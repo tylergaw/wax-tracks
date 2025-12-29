@@ -17,6 +17,12 @@
     "rebuild": "curl -X POST https://api.netlify.com/build_hooks/656e435889073d2196bd186f",
     "test": "TEST=true node --env-file .env --test",
     "test:watch": "TEST=true node --env-file .env --test --watch .",
+    "test:ollama": "node ./src/testOllama.js",
+    "test:ollama:llama3.1-8b": "node ./src/testOllama.js --model llama3.1:8b",
+    "test:ollama:mistral": "node ./src/testOllama.js --model mistral:7b",
+    "test:ollama:gemma2": "node ./src/testOllama.js --model gemma2:9b",
+    "test:ollama:qwen": "node ./src/testOllama.js --model qwen2.5:7b",
+    "test:openai": "node --env-file .env ./src/testOpenAI.js",
     "prettier": "prettier ./src --write"
   },
   "devDependencies": {

@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "model": "gpt-5-nano",
+    "baselineModel": "gpt-4o",
+    "timestamp": "2025-12-29T23:00:08.970Z",
+    "processingTime": 40065,
+    "processingTimeSeconds": 40.065
+  },
+  "summary": {
+    "totalRecords": 15,
+    "exactMatches": 0,
+    "different": 10,
+    "testModelBetter": 0,
+    "gpt4oBetter": 0,
+    "testModelMissing": 5,
+    "exampleDifferences": [
+      {
+        "id": "577250",
+        "description": "Red Translucent",
+        "gpt4o": {
+          "humanReadableColor": "Red Translucent",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "red translucent",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        }
+      },
+      {
+        "id": "965631",
+        "description": "Red Translucent",
+        "gpt4o": {
+          "humanReadableColor": "Red Translucent",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "red translucent",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        }
+      },
+      {
+        "id": "1192308",
+        "description": "Yellow",
+        "gpt4o": {
+          "humanReadableColor": "Yellow",
+          "cssReadableColors": [
+            "yellow"
+          ]
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "yellow",
+          "cssReadableColors": [
+            "yellow"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1597466",
+        "description": "Pink",
+        "gpt4o": {
+          "humanReadableColor": "Pink",
+          "cssReadableColors": [
+            "pink"
+          ]
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "pink",
+          "cssReadableColors": [
+            "pink"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1597615",
+        "description": "Red",
+        "gpt4o": {
+          "humanReadableColor": "Red",
+          "cssReadableColors": [
+            "red"
+          ]
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "red",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1684889",
+        "description": "Grey Marbled",
+        "gpt4o": {
+          "humanReadableColor": "Grey Marbled",
+          "cssReadableColors": [
+            "grey"
+          ],
+          "pattern": "marbled"
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "gray marbled",
+          "cssReadableColors": [
+            "gray"
+          ],
+          "pattern": "marbled",
+          "texture": null
+        }
+      },
+      {
+        "id": "1684896",
+        "description": "Grey Marbled",
+        "gpt4o": {
+          "humanReadableColor": "Grey Marbled",
+          "cssReadableColors": [
+            "grey"
+          ],
+          "pattern": "marbled"
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "gray marbled",
+          "cssReadableColors": [
+            "gray"
+          ],
+          "pattern": "marbled",
+          "texture": null
+        }
+      },
+      {
+        "id": "1790723",
+        "description": "Blue Translucent",
+        "gpt4o": {
+          "humanReadableColor": "Blue Translucent",
+          "cssReadableColors": [
+            "blue"
+          ],
+          "texture": "translucent"
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "blue translucent",
+          "cssReadableColors": [
+            "blue"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        }
+      },
+      {
+        "id": "1949892",
+        "description": "White",
+        "gpt4o": {
+          "humanReadableColor": "White",
+          "cssReadableColors": [
+            "white"
+          ]
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "white",
+          "cssReadableColors": [
+            "white"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "2101658",
+        "description": "Green",
+        "gpt4o": {
+          "humanReadableColor": "Green",
+          "cssReadableColors": [
+            "green"
+          ]
+        },
+        "gpt-5-nano": {
+          "humanReadableColor": "green",
+          "cssReadableColors": [
+            "green"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "id": "577250",
+      "description": "Red Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "red translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "965631",
+      "description": "Red Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "red translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "1192308",
+      "description": "Yellow",
+      "gpt4o": {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ]
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1597466",
+      "description": "Pink",
+      "gpt4o": {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ]
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1597615",
+      "description": "Red",
+      "gpt4o": {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ]
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1684889",
+      "description": "Grey Marbled",
+      "gpt4o": {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "marbled"
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "gray marbled",
+        "cssReadableColors": [
+          "gray"
+        ],
+        "pattern": "marbled",
+        "texture": null
+      }
+    },
+    {
+      "id": "1684896",
+      "description": "Grey Marbled",
+      "gpt4o": {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ],
+        "pattern": "marbled"
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "gray marbled",
+        "cssReadableColors": [
+          "gray"
+        ],
+        "pattern": "marbled",
+        "texture": null
+      }
+    },
+    {
+      "id": "1790723",
+      "description": "Blue Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "texture": "translucent"
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "blue translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "1949892",
+      "description": "White",
+      "gpt4o": {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ]
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "white",
+        "cssReadableColors": [
+          "white"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "2101658",
+      "description": "Green",
+      "gpt4o": {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ]
+      },
+      "gpt-5-nano": {
+        "humanReadableColor": "green",
+        "cssReadableColors": [
+          "green"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "13329",
+      "description": "Jacksonville Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      "gpt-5-nano": null
+    },
+    {
+      "id": "27277",
+      "description": "SRC Pressing, Gatefold",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      "gpt-5-nano": null
+    },
+    {
+      "id": "76872",
+      "description": "Winchester Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      "gpt-5-nano": null
+    },
+    {
+      "id": "100245",
+      "description": "James Booker Credit",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      "gpt-5-nano": null
+    },
+    {
+      "id": "355382",
+      "description": "Specialty Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      },
+      "gpt-5-nano": null
+    }
+  ]
+}

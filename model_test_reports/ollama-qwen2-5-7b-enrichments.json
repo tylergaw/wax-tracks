@@ -1,0 +1,142 @@
+[
+  {
+    "id": "13329",
+    "description": "Jacksonville Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "27277",
+    "description": "SRC Pressing, Gatefold",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "76872",
+    "description": "Winchester Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "100245",
+    "description": "James Booker Credit",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "355382",
+    "description": "Specialty Pressing",
+    "humanReadableColor": null,
+    "cssReadableColors": null,
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "577250",
+    "description": "Red Translucent",
+    "humanReadableColor": "red (translucent)",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "965631",
+    "description": "Red Translucent",
+    "humanReadableColor": "red (translucent)",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "1192308",
+    "description": "Yellow",
+    "humanReadableColor": "yellow",
+    "cssReadableColors": [
+      "yellow"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1597466",
+    "description": "Pink",
+    "humanReadableColor": "pink",
+    "cssReadableColors": [
+      "pink"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1597615",
+    "description": "Red",
+    "humanReadableColor": "red",
+    "cssReadableColors": [
+      "red"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "1684889",
+    "description": "Grey Marbled",
+    "humanReadableColor": null,
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "marbled",
+    "texture": null
+  },
+  {
+    "id": "1684896",
+    "description": "Grey Marbled",
+    "humanReadableColor": null,
+    "cssReadableColors": [
+      "grey"
+    ],
+    "pattern": "marbled",
+    "texture": null
+  },
+  {
+    "id": "1790723",
+    "description": "Blue Translucent",
+    "humanReadableColor": "translucent blue",
+    "cssReadableColors": [
+      "blue"
+    ],
+    "pattern": null,
+    "texture": "translucent"
+  },
+  {
+    "id": "1949892",
+    "description": "White",
+    "humanReadableColor": "white",
+    "cssReadableColors": [
+      "white"
+    ],
+    "pattern": null,
+    "texture": null
+  },
+  {
+    "id": "2101658",
+    "description": "Green",
+    "humanReadableColor": "green",
+    "cssReadableColors": [
+      "green"
+    ],
+    "pattern": null,
+    "texture": null
+  }
+]

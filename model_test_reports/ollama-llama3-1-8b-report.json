@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "model": "llama3.1:8b",
+    "timestamp": "2025-12-29T20:19:13.502Z",
+    "processingTime": 135998,
+    "processingTimeSeconds": 135.998
+  },
+  "summary": {
+    "totalRecords": 15,
+    "exactMatches": 2,
+    "different": 8,
+    "ollamaBetter": 1,
+    "gpt4oBetter": 0,
+    "ollamaMissing": 0,
+    "exampleDifferences": [
+      {
+        "id": "1192308",
+        "description": "Yellow",
+        "gpt4o": {
+          "humanReadableColor": "Yellow",
+          "cssReadableColors": [
+            "yellow"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "Yellow",
+          "cssReadableColors": [
+            "yellow"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1597466",
+        "description": "Pink",
+        "gpt4o": {
+          "humanReadableColor": "Pink",
+          "cssReadableColors": [
+            "pink"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "Pink",
+          "cssReadableColors": [
+            "pink"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1597615",
+        "description": "Red",
+        "gpt4o": {
+          "humanReadableColor": "Red",
+          "cssReadableColors": [
+            "red"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "Red",
+          "cssReadableColors": [
+            "red"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "1684889",
+        "description": "Grey Marbled",
+        "gpt4o": {
+          "humanReadableColor": "Grey Marbled",
+          "cssReadableColors": [
+            "grey"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "grey marbled",
+          "cssReadableColors": [
+            "#cccccc"
+          ],
+          "pattern": null,
+          "texture": "marbled"
+        }
+      },
+      {
+        "id": "1684896",
+        "description": "Grey Marbled",
+        "gpt4o": {
+          "humanReadableColor": "Grey Marbled",
+          "cssReadableColors": [
+            "grey"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "grey marbled",
+          "cssReadableColors": [
+            "#cccccc"
+          ],
+          "pattern": null,
+          "texture": "marbled"
+        }
+      },
+      {
+        "id": "1790723",
+        "description": "Blue Translucent",
+        "gpt4o": {
+          "humanReadableColor": "Blue Translucent",
+          "cssReadableColors": [
+            "blue"
+          ],
+          "texture": "translucent"
+        },
+        "ollama": {
+          "humanReadableColor": "blue translucent",
+          "cssReadableColors": [
+            "#0000ff"
+          ],
+          "pattern": null,
+          "texture": "translucent"
+        }
+      },
+      {
+        "id": "1949892",
+        "description": "White",
+        "gpt4o": {
+          "humanReadableColor": "White",
+          "cssReadableColors": [
+            "white"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "white",
+          "cssReadableColors": [
+            "#ffffff"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "2101658",
+        "description": "Green",
+        "gpt4o": {
+          "humanReadableColor": "Green",
+          "cssReadableColors": [
+            "green"
+          ]
+        },
+        "ollama": {
+          "humanReadableColor": "green",
+          "cssReadableColors": [
+            "#00ff00"
+          ],
+          "pattern": null,
+          "texture": null
+        }
+      },
+      {
+        "id": "27277",
+        "description": "SRC Pressing, Gatefold",
+        "gpt4o": {
+          "humanReadableColor": null,
+          "cssReadableColors": null
+        },
+        "ollama": {
+          "humanReadableColor": null,
+          "cssReadableColors": null,
+          "pattern": "Gatefold",
+          "texture": null
+        }
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "id": "577250",
+      "description": "Red Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      "ollama": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "965631",
+      "description": "Red Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      },
+      "ollama": {
+        "humanReadableColor": "Red Translucent",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "1192308",
+      "description": "Yellow",
+      "gpt4o": {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "Yellow",
+        "cssReadableColors": [
+          "yellow"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1597466",
+      "description": "Pink",
+      "gpt4o": {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "Pink",
+        "cssReadableColors": [
+          "pink"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1597615",
+      "description": "Red",
+      "gpt4o": {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "Red",
+        "cssReadableColors": [
+          "red"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "1684889",
+      "description": "Grey Marbled",
+      "gpt4o": {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "grey marbled",
+        "cssReadableColors": [
+          "#cccccc"
+        ],
+        "pattern": null,
+        "texture": "marbled"
+      }
+    },
+    {
+      "id": "1684896",
+      "description": "Grey Marbled",
+      "gpt4o": {
+        "humanReadableColor": "Grey Marbled",
+        "cssReadableColors": [
+          "grey"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "grey marbled",
+        "cssReadableColors": [
+          "#cccccc"
+        ],
+        "pattern": null,
+        "texture": "marbled"
+      }
+    },
+    {
+      "id": "1790723",
+      "description": "Blue Translucent",
+      "gpt4o": {
+        "humanReadableColor": "Blue Translucent",
+        "cssReadableColors": [
+          "blue"
+        ],
+        "texture": "translucent"
+      },
+      "ollama": {
+        "humanReadableColor": "blue translucent",
+        "cssReadableColors": [
+          "#0000ff"
+        ],
+        "pattern": null,
+        "texture": "translucent"
+      }
+    },
+    {
+      "id": "1949892",
+      "description": "White",
+      "gpt4o": {
+        "humanReadableColor": "White",
+        "cssReadableColors": [
+          "white"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "white",
+        "cssReadableColors": [
+          "#ffffff"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "2101658",
+      "description": "Green",
+      "gpt4o": {
+        "humanReadableColor": "Green",
+        "cssReadableColors": [
+          "green"
+        ]
+      },
+      "ollama": {
+        "humanReadableColor": "green",
+        "cssReadableColors": [
+          "#00ff00"
+        ],
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "13329",
+      "description": "Jacksonville Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null
+      },
+      "ollama": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "27277",
+      "description": "SRC Pressing, Gatefold",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null
+      },
+      "ollama": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": "Gatefold",
+        "texture": null
+      }
+    },
+    {
+      "id": "76872",
+      "description": "Winchester Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null
+      },
+      "ollama": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "100245",
+      "description": "James Booker Credit",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null
+      },
+      "ollama": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    },
+    {
+      "id": "355382",
+      "description": "Specialty Pressing",
+      "gpt4o": {
+        "humanReadableColor": null,
+        "cssReadableColors": null
+      },
+      "ollama": {
+        "humanReadableColor": null,
+        "cssReadableColors": null,
+        "pattern": null,
+        "texture": null
+      }
+    }
+  ]
+}
